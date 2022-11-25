@@ -13,6 +13,11 @@ const Products = () => {
     navigate('/welcome');
   }
 
+  /*
+  navigate(-1) = go back
+  navigate(+1) = go foward
+  */
+
   return (
     <section>
       <h1>The Products Page</h1>
